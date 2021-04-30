@@ -24,7 +24,7 @@ jobs:
         path: target
 
   publish_in_dockerhub:
-    name: Publish in DockerHub
+    name: Publish in DockerHu
     runs-on: windows-latest
     needs: [build]
     steps:
